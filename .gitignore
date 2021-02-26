@@ -1,0 +1,39 @@
+*node_modules/*
+.env
+ormconfig.json
+
+# compiled output
+/dist
+/out-tsc
+tmp/*
+!tmp/.gitkeep
+# Only exists if Bazel was run
+/bazel-out
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
